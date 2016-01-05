@@ -164,6 +164,7 @@ local log_level_array = {
  
 flexget_parser:set_flags(
     "--test",
+    "-V", "--version",
     "-c"..args{clink.matches_are_files},
     "-l"..args{clink.matches_are_files},
     "--logfile"..args{clink.matches_are_files},
