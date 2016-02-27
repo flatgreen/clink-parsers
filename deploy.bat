@@ -1,0 +1,1 @@
+copy *.lua %localappdata%\clink
