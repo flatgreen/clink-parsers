@@ -24,9 +24,10 @@
 --
 --------------------------------------------------------------------------------
 -- This file is a Lua script helper for fleget http://flexget.com/
+-- -V 1.2.505
 -- with clink : http://mridgers.github.io/clink/
 -- Two greats sofwares
--- april 2015
+-- april 2016
 
 local execute_parser
 local flexget_parser
@@ -81,6 +82,7 @@ series_parser = clink.arg.new_parser(
     {"list",
     "show",
     "begin",
+    "remove",
     "forget" },
     "-h", "--help"
     )
